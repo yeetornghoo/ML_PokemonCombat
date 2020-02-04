@@ -1,0 +1,1286 @@
+-- CREATE MASTER
+Select a.*, 
+b.name as pok_name, b.abilities, b.against_bug, b.against_dark, b.against_dragon, b.against_electric, b.against_fairy, b.against_fight, 
+b.against_fire, b.against_flying, b.against_ghost, b.against_grass, b.against_ground, b.against_ice, b.against_normal, 
+b.against_poison, b.against_psychic, b.against_rock, b.against_steel, b.against_water, b.base_egg_steps, 
+b.base_happiness, b.base_total, b.capture_rate, b.classfication, b.percentage_male, 
+b.experience_growth, b.height_m, b.weight_kg, b.pokedex_number
+INTO Pokemon_Master
+from pokemon a Left Outer Join pokemon_more_characteristric b On lower(a.name) = Lower(b.name) 
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=230 And pokMore.pokedex_number=212
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=781 And pokMore.pokedex_number=710
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=783 And pokMore.pokedex_number=710
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=782 And pokMore.pokedex_number=710
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=784 And pokMore.pokedex_number=710
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=752 And pokMore.pokedex_number=681
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=751 And pokMore.pokedex_number=681
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=617 And pokMore.pokedex_number=555
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=431 And pokMore.pokedex_number=386
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=430 And pokMore.pokedex_number=386
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=432 And pokMore.pokedex_number=386
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=429 And pokMore.pokedex_number=386
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=546 And pokMore.pokedex_number=487
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=545 And pokMore.pokedex_number=487
+
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=785 And pokMore.pokedex_number=711
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=786 And pokMore.pokedex_number=711
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=787 And pokMore.pokedex_number=711
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=788 And pokMore.pokedex_number=711
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=799 And pokMore.pokedex_number=720
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=798 And pokMore.pokedex_number=720
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=715 And pokMore.pokedex_number=647
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=714 And pokMore.pokedex_number=647
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=712 And pokMore.pokedex_number=646
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=713 And pokMore.pokedex_number=646
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=709 And pokMore.pokedex_number=645
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=710 And pokMore.pokedex_number=645
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=537 And pokMore.pokedex_number=479
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=533 And pokMore.pokedex_number=479
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=535 And pokMore.pokedex_number=479
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=536 And pokMore.pokedex_number=479
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=534 And pokMore.pokedex_number=479
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=512 And pokMore.pokedex_number=460
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=795 And pokMore.pokedex_number=718
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=394 And pokMore.pokedex_number=359
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=155 And pokMore.pokedex_number=142
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=716 And pokMore.pokedex_number=648
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=717 And pokMore.pokedex_number=648
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=748 And pokMore.pokedex_number=678
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=747 And pokMore.pokedex_number=678
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=425 And pokMore.pokedex_number=383
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=459 And pokMore.pokedex_number=413
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=460 And pokMore.pokedex_number=413
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq=461 And pokMore.pokedex_number=413
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (703, 704) And pokMore.pokedex_number=641
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (705, 706) And pokMore.pokedex_number=642
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (551, 552) And pokMore.pokedex_number=492
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (423) And pokMore.pokedex_number=382
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (4) And pokMore.pokedex_number=3
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (269) And pokMore.pokedex_number=248
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (284) And pokMore.pokedex_number=260
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (225) And pokMore.pokedex_number=208
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (88) And pokMore.pokedex_number=80
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (350) And pokMore.pokedex_number=319
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (276) And pokMore.pokedex_number=254
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (410) And pokMore.pokedex_number=373
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (328) And pokMore.pokedex_number=302
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (427) And pokMore.pokedex_number=384
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (138) And pokMore.pokedex_number=127
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (24) And pokMore.pokedex_number=18
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (164, 165) And pokMore.pokedex_number=150
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (414) And pokMore.pokedex_number=376
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (337) And pokMore.pokedex_number=308
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (340) And pokMore.pokedex_number=310
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (499) And pokMore.pokedex_number=448
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (477) And pokMore.pokedex_number=428
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (421) And pokMore.pokedex_number=381
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (419) And pokMore.pokedex_number=380
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (125) And pokMore.pokedex_number=115
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (249) And pokMore.pokedex_number=229
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (233) And pokMore.pokedex_number=214
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (142) And pokMore.pokedex_number=130
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (398) And pokMore.pokedex_number=362
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (103) And pokMore.pokedex_number=94
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (307) And pokMore.pokedex_number=282
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (495) And pokMore.pokedex_number=445
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (528) And pokMore.pokedex_number=475
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (797) And pokMore.pokedex_number=719
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (9, 8) And pokMore.pokedex_number=6
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (355) And pokMore.pokedex_number=323
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (280) And pokMore.pokedex_number=257
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (13) And pokMore.pokedex_number=9
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (20) And pokMore.pokedex_number=15
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (388) And pokMore.pokedex_number=354
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (592) And pokMore.pokedex_number=531
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (197) And pokMore.pokedex_number=181
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (72) And pokMore.pokedex_number=65
+
+
+UPDATE pokMaster SET
+	pokMaster.pok_name = pokMore.name, pokMaster.abilities = pokMore.abilities, pokMaster.against_bug = pokMore.against_bug,
+	pokMaster.against_dark = pokMore.against_dark, pokMaster.against_dragon = pokMore.against_dragon, pokMaster.against_electric = pokMore.against_electric,
+	pokMaster.against_fairy = pokMore.against_fairy, pokMaster.against_fight = pokMore.against_fight, pokMaster.against_fire = pokMore.against_fire,
+	pokMaster.against_flying = pokMore.against_flying, pokMaster.against_ghost = pokMore.against_ghost, pokMaster.against_grass = pokMore.against_grass,
+	pokMaster.against_ground = pokMore.against_ground, pokMaster.against_ice = pokMore.against_ice, pokMaster.against_normal = pokMore.against_normal, 
+	pokMaster.against_poison = pokMore.against_poison, pokMaster.against_psychic = pokMore.against_psychic, pokMaster.against_rock = pokMore.against_rock,
+	pokMaster.against_steel = pokMore.against_steel, pokMaster.against_water = pokMore.against_water, pokMaster.base_egg_steps = pokMore.base_egg_steps,
+	pokMaster.base_happiness = pokMore.base_happiness, pokMaster.base_total = pokMore.base_total, pokMaster.capture_rate = pokMore.capture_rate,
+	pokMaster.classfication = pokMore.classfication, pokMaster.percentage_male = pokMore.percentage_male, pokMaster.experience_growth = pokMore.experience_growth,
+	pokMaster.height_m = pokMore.height_m, pokMaster.weight_kg = pokMore.weight_kg, pokMaster.pokedex_number = pokMore.pokedex_number
+FROM Pokemon_Master pokMaster, pokemon_more_characteristric pokMore
+WHERE pokMaster.seq in (334) And pokMore.pokedex_number=306
+
+Select * From Pokemon_Master 
+
+
+-- select * from Pokemon_Master where lower(name) like lower('%Aggron%')
+select * from pokemon_more_characteristric where lower(name) like lower('%Aggron%')
+
+
+-- SELECT * FROM Pokemon_Master where lower(type_1)=lower('fire') and lower(type_2)=lower('ghost') order by name asc
+SELECT * FROM Pokemon_Master where name is null
+SELECT * FROM pokemon_more_characteristric where lower(type1)=lower('fighting') and hp=65 and generation=1
+SELECT * FROM Pokemon_Master where seq=63
+UPDATE Pokemon_Master SET name='Primeape' where seq=63
+
+
+
+
+
