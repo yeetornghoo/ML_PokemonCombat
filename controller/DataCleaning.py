@@ -3,8 +3,14 @@ import numpy as np
 
 
 def run(data):
-    # DROP pokemon_type_2
+
+    # DROP COLUMNS
     data = data.drop(['pokemon_type_2'], axis=1)
+    data = data.drop(['pokedex_number'], axis=1)
+    data = data.drop(['pokemon_name'], axis=1)
+    data = data.drop(['pokemon_code'], axis=1)
+    data = data.drop(['classfication'], axis=1)
+    data = data.drop(['percentage_male'], axis=1)
 
     # FILL weight_kg WITH AVERAGE VALUE
     data['weight_kg'] = data['weight_kg'].astype(float)
