@@ -1,0 +1,60 @@
+Scale : STANDARD
+5 KF
+
+
+
+
+Classifier: gradient_boosting 
+- Time: 28.435306310653687 seconds
+- Accuracy: 0.9518
+- ROC AUC: 0.9514368757084704
+- F1 macro: 0.951680550532672
+- Precision : 0.9283877826024967
+
+
+Classifier: random_forest 
+- Time: 31.22528386116028 seconds
+- Accuracy: 0.99176
+- ROC AUC: 0.9916940090215758
+- F1 macro: 0.9917348156526864
+- Precision : 0.9871338539915105
+
+
+Classifier: GaussianNB 
+- Time: 0.46024250984191895 seconds
+- Accuracy: 0.78978
+- ROC AUC: 0.7891036024909228
+- F1 macro: 0.7892218316718602
+- Precision : 0.7132415683937208
+
+
+Classifier: ann 
+- Time: 185.17010259628296 seconds
+- Accuracy: 0.97012
+- ROC AUC: 0.9701745673117826
+- F1 macro: 0.9700167574295677
+- Precision : 0.9511101058844681
+
+
+Classifier: svn 
+- Time: 47.41382551193237 seconds
+- Accuracy: 0.75272
+- ROC AUC: 0.7795555153152124
+- F1 macro: 0.750020378474614
+- Precision : 0.8186548250647121
+
+
+Classifier: linearSVC 
+- Time: 92.37657117843628 seconds
+- Accuracy: 0.88318
+- ROC AUC: 0.8830370372542049
+- F1 macro: 0.8827329984067576
+- Precision : 0.8220369661592867
+
+
+Classifier: logistic 
+- Time: 1.706005573272705 seconds
+- Accuracy: 0.88684
+- ROC AUC: 0.8867012418747758
+- F1 macro: 0.8864106560883405
+- Precision : 0.8272389256518232

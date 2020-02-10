@@ -1,0 +1,77 @@
+Scale : STANDARD
+Split 7 : 3
+
+Classifier: std_GaussianNB 
+- Time: 0.031913042068481445 seconds
+- Accuracy: 0.7861333333333334
+- ROC AUC: 0.7854518466075486
+- F1 macro: 0.7855886943110746
+- Precision : 0.7100419227335675
+
+
+Classifier: std_linearSVC 
+- Time: 14.572814464569092 seconds
+- Accuracy: 0.8815333333333333
+- ROC AUC: 0.8813646740364054
+- F1 macro: 0.881085028647935
+- Precision : 0.8200564718285018
+
+
+Classifier: std_logistic 
+- Time: 0.32137060165405273 seconds
+- Accuracy: 0.8847333333333334
+- ROC AUC: 0.884624212564934
+- F1 macro: 0.8842837241722867
+- Precision : 0.8237548507900303
+
+
+Classifier: std_svn 
+
+C:\Users\Carlson\Anaconda3\lib\site-packages\sklearn\svm\base.py:241: ConvergenceWarning: Solver terminated early (max_iter=2000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
+  % self.max_iter, ConvergenceWarning)
+
+- Time: 10.870198011398315 seconds
+- Accuracy: 0.7854666666666666
+- ROC AUC: 0.7957834727824501
+- F1 macro: 0.7850377931793697
+- Precision : 0.7949702834066678
+
+
+Classifier: std_ann 
+- Time: 30.715258836746216 seconds
+- Accuracy: 0.9521333333333334
+- ROC AUC: 0.9521021923817795
+- F1 macro: 0.9519695225080183
+- Precision : 0.9236525152632203
+
+
+Classifier: std_cart 
+- Time: 0.9152600765228271 seconds
+- Accuracy: 0.9363333333333334
+- ROC AUC: 0.936201316839617
+- F1 macro: 0.936121891399715
+- Precision : 0.9005259485913334
+
+
+Classifier: std_gradient_boosting 
+- Time: 6.991706371307373 seconds
+- Accuracy: 0.9491333333333334
+- ROC AUC: 0.948762676581581
+- F1 macro: 0.9490075462816665
+- Precision : 0.9244545640662218
+
+
+Classifier: std_random_forest 
+- Time: 7.555180311203003 seconds
+- Accuracy: 0.9559333333333333
+- ROC AUC: 0.955654250940532
+- F1 macro: 0.9558116939246865
+- Precision : 0.9329620786968502
+
+
+Classifier: std_ada_boost 
+- Time: 5.6538403034210205 seconds
+- Accuracy: 0.9442666666666667
+- ROC AUC: 0.9439162893870383
+- F1 macro: 0.9441217069504897
+- Precision : 0.9164250810824467

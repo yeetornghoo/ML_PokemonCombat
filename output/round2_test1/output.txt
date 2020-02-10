@@ -1,0 +1,85 @@
+Scale : NONE
+Split 7 : 1
+
+Classifier: std_GaussianNB 
+- Time: 0.03804922103881836 seconds
+- Accuracy: 0.7842666666666667
+- ROC AUC: 0.7835789795934074
+- F1 macro: 0.7837055546552447
+- Precision : 0.7074652417630656
+
+
+Classifier: std_linearSVC 
+
+C:\Users\Carlson\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+
+- Time: 299.40261030197144 seconds
+- Accuracy: 0.6504
+- ROC AUC: 0.7226550955157313
+- F1 macro: 0.6028554421073199
+- Precision : 0.299459620040976
+
+
+Classifier: std_logistic 
+
+C:\Users\Carlson\Anaconda3\lib\site-packages\sklearn\linear_model\sag.py:337: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  "the coef_ did not converge", ConvergenceWarning)
+
+- Time: 210.60377979278564 seconds
+- Accuracy: 0.7419333333333333
+- ROC AUC: 0.7428878637896741
+- F1 macro: 0.7393580975056038
+- Precision : 0.6175294740551509
+
+
+Classifier: std_svn 
+
+C:\Users\Carlson\Anaconda3\lib\site-packages\sklearn\svm\base.py:241: ConvergenceWarning: Solver terminated early (max_iter=2000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
+  % self.max_iter, ConvergenceWarning)
+
+- Time: 14.217771291732788 seconds
+- Accuracy: 0.5044666666666666
+- ROC AUC: 0.508533670788313
+- F1 macro: 0.5036048695652173
+- Precision : 0.5739157725963907
+
+
+Classifier: std_ann 
+- Time: 118.88578629493713 seconds
+- Accuracy: 0.9236
+- ROC AUC: 0.9232885722994978
+- F1 macro: 0.9233765660666503
+- Precision : 0.8842039333476364
+
+
+Classifier: std_cart 
+- Time: 0.9338967800140381 seconds
+- Accuracy: 0.9369333333333333
+- ROC AUC: 0.9368525500142434
+- F1 macro: 0.9367165145493417
+- Precision : 0.9007849612574753
+
+
+Classifier: std_gradient_boosting 
+- Time: 7.6829469203948975 seconds
+- Accuracy: 0.949
+- ROC AUC: 0.948629092406853
+- F1 macro: 0.9488738832312908
+- Precision : 0.9242556546388708
+
+
+Classifier: std_random_forest 
+- Time: 8.16529655456543 seconds
+- Accuracy: 0.956
+- ROC AUC: 0.955737007460543
+- F1 macro: 0.9558763683295297
+- Precision : 0.9327828429670293
+
+
+Classifier: std_ada_boost 
+- Time: 6.13378381729126 seconds
+- Accuracy: 0.9441333333333334
+- ROC AUC: 0.9438004497272536
+- F1 macro: 0.9439841878725954
+- Precision : 0.9158098842385056

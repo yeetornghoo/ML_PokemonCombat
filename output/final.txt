@@ -1,0 +1,106 @@
+kf = KFold(n_splits=8, random_state=2)
+clf = RandomForestClassifier(n_estimators=100, random_state=0)
+
+- Accuracy: 0.99502
+- ROC AUC: 0.9949752311287569
+- F1 macro: 0.9950046574226983
+- Precision : 0.9922437503872629
+
+===========================================================
+kf = KFold(n_splits=8, random_state=0)
+clf = RandomForestClassifier(n_estimators=100, random_state=0)
+- Accuracy: 0.99502
+- ROC AUC: 0.9949752311287569
+- F1 macro: 0.9950046574226983
+- Precision : 0.9922437503872629
+
+===========================================================
+kf = KFold(n_splits=10, random_state=0)
+clf = RandomForestClassifier(n_estimators=100, random_state=0)
+- Time: 76.13477206230164 seconds
+- Accuracy: 0.99616
+- ROC AUC: 0.996117613611787
+- F1 macro: 0.9961481781424276
+- Precision : 0.9940864489898881
+
+===========================================================
+kf = KFold(n_splits=10, random_state=0)
+clf = RandomForestClassifier(n_estimators=30, random_state=0)
+- Time: 22.680286645889282 seconds
+- Accuracy: 0.9957
+- ROC AUC: 0.9956853896131223
+- F1 macro: 0.9956865018409522
+- Precision : 0.9930711561123329
+
+===========================================================
+kf = KFold(n_splits=10, random_state=0)
+clf = RandomForestClassifier(n_estimators=50, random_state=0)
+- Time: 38.58652997016907 seconds
+- Accuracy: 0.99608
+- ROC AUC: 0.9960416259184032
+- F1 macro: 0.9960678968670207
+- Precision : 0.9939169683196546
+
+===========================================================
+kf = KFold(n_splits=10, random_state=0)
+clf = RandomForestClassifier(n_estimators=50, random_state=0, min_impurity_decrease=1e-4)
+
+- Time: 37.87641620635986 seconds
+- Accuracy: 0.99608
+- ROC AUC: 0.9960416259184032
+- F1 macro: 0.9960678968670207
+- Precision : 0.9939169683196546
+
+===========================================================
+kf = KFold(n_splits=10, random_state=0)
+clf = RandomForestClassifier(n_estimators=50, random_state=0, class_weight="balanced")
+- Time: 37.37205696105957 seconds
+- Accuracy: 0.99614
+- ROC AUC: 0.9961114747214787
+- F1 macro: 0.9961280044198497
+- Precision : 0.993921786135331
+
+===========================================================
+kf = KFold(n_splits=10, random_state=0)
+clf = RandomForestClassifier(n_estimators=50, random_state=0, class_weight={0:1,1:2})
+- Time: 38.13040566444397 seconds
+- Accuracy: 0.99604
+- ROC AUC: 0.9960209598006788
+- F1 macro: 0.9960276136799702
+- Precision : 0.9936691986244889
+
+===========================================================
+kf = KFold(n_splits=10, random_state=0)
+clf = RandomForestClassifier(n_estimators=50, random_state=0, class_weight={0:1,1:3})
+- Time: 38.48865103721619 seconds
+- Accuracy: 0.99612
+- ROC AUC: 0.996110025205734
+- F1 macro: 0.9961077940421161
+- Precision : 0.9937165562909303
+
+===========================================================
+kf = KFold(n_splits=10, random_state=0)
+clf = RandomForestClassifier(n_estimators=50, random_state=0, class_weight={0:5,1:2})
+
+- Time: 37.78023147583008 seconds
+- Accuracy: 0.99616
+- ROC AUC: 0.9961240057839409
+- F1 macro: 0.9961481267146133
+- Precision : 0.9940252868431674
+
+===========================================================
+kf = KFold(n_splits=10, random_state=0)
+clf = RandomForestClassifier(n_estimators=50, random_state=0, class_weight={0:2,1:3})
+- Time: 38.44135642051697 seconds
+- Accuracy: 0.99616
+- ROC AUC: 0.9961304556240594
+- F1 macro: 0.9961480751741456
+- Precision : 0.9939641563996172
+
+
+
+Nor Samsiah binti Sani
+ta. Cambridge: Cambridge University Press. doi:10.1017/CBO9780511973000
+
+
+

@@ -1,0 +1,78 @@
+Scale : STANDARD
+Split 9 : 1 
+PCA
+
+Classifier: std_GaussianNB 
+- Time: 0.05285763740539551 seconds
+- Accuracy: 0.69
+- ROC AUC: 0.6890353309732433
+- F1 macro: 0.6882557786115628
+- Precision : 0.5879242628689395
+
+
+Classifier: std_linearSVC 
+- Time: 22.641931295394897 seconds
+- Accuracy: 0.6826
+- ROC AUC: 0.6815230440354725
+- F1 macro: 0.6812698882468361
+- Precision : 0.5909348602444716
+
+
+Classifier: std_logistic 
+- Time: 0.41717004776000977 seconds
+- Accuracy: 0.682
+- ROC AUC: 0.6809192322442981
+- F1 macro: 0.6806590746809482
+- Precision : 0.5901934032961564
+
+
+Classifier: std_svn 
+
+C:\Users\Carlson\Anaconda3\lib\site-packages\sklearn\svm\base.py:241: ConvergenceWarning: Solver terminated early (max_iter=2000).  Consider pre-processing your data with StandardScaler or MinMaxScaler.
+  % self.max_iter, ConvergenceWarning)
+
+- Time: 13.871859312057495 seconds
+- Accuracy: 0.6664
+- ROC AUC: 0.6724102083632482
+- F1 macro: 0.6660318869871127
+- Precision : 0.673334021527719
+
+
+Classifier: std_ann 
+- Time: 39.58468580245972 seconds
+- Accuracy: 0.6702
+- ROC AUC: 0.66915183774882
+- F1 macro: 0.6691400703638146
+- Precision : 0.5876377598642342
+
+
+Classifier: std_cart 
+- Time: 3.125562906265259 seconds
+- Accuracy: 0.6382
+- ROC AUC: 0.6370086294014372
+- F1 macro: 0.6369703313852815
+- Precision : 0.5590634442351956
+
+
+Classifier: std_gradient_boosting 
+- Time: 21.557804584503174 seconds
+- Accuracy: 0.7002
+- ROC AUC: 0.6992880633765847
+- F1 macro: 0.6986114533036145
+- Precision : 0.5997111408856435
+
+
+Classifier: std_random_forest 
+- Time: 23.639078378677368 seconds
+- Accuracy: 0.705
+- ROC AUC: 0.7043531517461605
+- F1 macro: 0.703012787282778
+- Precision : 0.5956237865515956
+
+
+Classifier: std_ada_boost 
+- Time: 25.013715744018555 seconds
+- Accuracy: 0.6852
+- ROC AUC: 0.6841398861042122
+- F1 macro: 0.6839214750095546
+- Precision : 0.5942845355406648
